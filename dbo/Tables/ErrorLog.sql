@@ -21,6 +21,8 @@ EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Primary key
 
 
 GO
+    GO
+    GO
 EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'The message text of the error that occurred.', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'ErrorLog', @level2type = N'COLUMN', @level2name = N'ErrorMessage';
 
 
